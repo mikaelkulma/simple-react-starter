@@ -1,5 +1,4 @@
 const path = require("path");
-const webpack = require("webpack");
 
 module.exports = {
   entry: [
@@ -33,6 +32,5 @@ module.exports = {
     port: 3000,
     publicPath: "http://localhost:3000/",
     hotOnly: true
-  },
-  plugins: [new webpack.HotModuleReplacementPlugin()]
+  }
 };
